@@ -22,7 +22,7 @@ Examples:
 0 ms: tp1_main_favorites_btn -> 1
 15 ms: tp1_favorite_popup -> 1
 00:00:10.031: tp1_clear_annotation_btn -> 0
-00:00:02.031: tp1_page_name$ -> COURTROOM A1026 - FAVORITE
+00:00:02.031: tp1_page_name$ -> FAVORITE
 
 ### Supported time formats
 - 123 ms
