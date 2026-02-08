@@ -14,21 +14,23 @@ It supports three signal types:
 ## Input Log Format
 
 Each log line must follow this format:
-\\\
+```
 <time>: <signal_name> -> <value>
+```
 
-Examples:
+Examples (shown exactly as they appear in the log file):
 
+```
 0 ms: tp1_main_favorites_btn -> 1
 15 ms: tp1_favorite_popup -> 1
 00:00:10.031: tp1_clear_annotation_btn -> 0
 00:00:02.031: tp1_page_name$ -> FAVORITE
-\\\
-### Supported time formats
-- 123 ms
-- 0ms
-- 00:00:02.031 (HH:MM:SS.mmm)
+```
 
+### Supported time formats
+- `123 ms`
+- `0ms`
+- `00:00:02.031` (HH:MM:SS.mmm)
 ---
 
 ## Dependencies
